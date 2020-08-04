@@ -204,6 +204,12 @@
     <None Remove="Updater\**" />
     <None Remove="wix\**" />
 
+    <Compile Remove="ExtLibs\runtime\**" />   
+
+    <EmbeddedResource Remove="ExtLibs\runtime\**" />  
+
+    <None Remove="ExtLibs\runtime\**" />
+
     <Compile Remove="**\bin\**" />   
 
     <EmbeddedResource Remove="**\bin\**" />  
